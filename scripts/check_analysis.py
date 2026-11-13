@@ -8,6 +8,12 @@ required = ['risk_run_id', 'exposures', 'dependence', 'scenarios', 'contribution
 missing = [field for field in required if field not in first]
 if missing:
     raise SystemExit("缺少分析字段：" + ", ".join(missing))
-if not first['risk_run_id'] or first['risk_run_id'] != replay.get('risk_run_id'):
+if first['risk_run_id'] == replay.get('risk_run_id') == "":
+    raise SystemExit("分析记录缺少 risk_run_id")
+if first['risk_run_id'] != replay.get('risk_run_id'):
     raise SystemExit("同一输入重放未引用同一分析记录")
-print("分析输出结构和重放标识核验完成")
+if replay.get('replayed') is not True:
+    raise SystemExit("重放未标记为 replayed")
+if not first.get('twin_reference', {}).get('referenced'):
+    raise SystemExit("分析未引用既有 twin 基线版本")
+print("分析输出结构、重放标识与 twin 引用核验完成")

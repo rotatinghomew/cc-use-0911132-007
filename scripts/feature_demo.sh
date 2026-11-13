@@ -3,6 +3,7 @@ workspace=$(mktemp -d)
 trap 'rm -rf "$workspace"' EXIT
 export PYTHONDONTWRITEBYTECODE=1
 bash scripts/demo.sh
+python3 -m unittest discover -s tests/analysis -p 'test_*.py' -q
 python3 -m market_space_twin.simulator.cli fixtures/demo.json --database "$workspace/analysis.sqlite3" > "$workspace/baseline.json"
 python3 -m market_space_twin.portfolio_risk --input fixtures/analysis/input.json --database "$workspace/analysis.sqlite3" --output "$workspace/first.json"
 python3 -m market_space_twin.portfolio_risk --input fixtures/analysis/input.json --database "$workspace/analysis.sqlite3" --output "$workspace/replay.json"

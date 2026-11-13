@@ -19,6 +19,10 @@ class AnalysisInputsTests(unittest.TestCase):
         data = self.load_data()
         self.assertTrue(data['candidate_tenants'][0]['monthly_contract'] == data['candidate_tenants'][1]['monthly_contract'])
 
+    def test_cashflow_inside_lease(self):
+        data = self.load_data()
+        self.assertTrue(all(row['month'] >= next(lease['start'][:7] for lease in data['leases'] if lease['tenant_id'] == row['tenant_id']) for row in data['cashflows']))
+
     def test_source_versions_and_cutoff(self):
         data = self.load_data()
         self.assertEqual(data["schema_version"], 1)

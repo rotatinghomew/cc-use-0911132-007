@@ -11,7 +11,7 @@
       "tenant_id": "tenant-0",
       "unit_id": "unit-0",
       "sector": "textile",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-01-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 100
     },
@@ -20,7 +20,7 @@
       "tenant_id": "tenant-1",
       "unit_id": "unit-1",
       "sector": "textile",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-01-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 110
     },
@@ -29,7 +29,7 @@
       "tenant_id": "tenant-2",
       "unit_id": "unit-2",
       "sector": "textile",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-01-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 120
     },
@@ -38,7 +38,7 @@
       "tenant_id": "tenant-3",
       "unit_id": "unit-3",
       "sector": "textile",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-01-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 130
     },
@@ -47,7 +47,7 @@
       "tenant_id": "tenant-4",
       "unit_id": "unit-4",
       "sector": "food",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-01-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 140
     },
@@ -56,7 +56,7 @@
       "tenant_id": "tenant-5",
       "unit_id": "unit-5",
       "sector": "food",
-      "start": "2026-08-01T00:00:00+00:00",
+      "start": "2026-05-01T00:00:00+00:00",
       "end": "2026-11-09T00:00:00+00:00",
       "monthly_contract": 150
     }

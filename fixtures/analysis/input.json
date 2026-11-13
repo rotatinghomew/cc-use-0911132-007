@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "leases": [
+    {
+      "lease_id": "lease-0",
+      "tenant_id": "tenant-0",
+      "unit_id": "unit-0",
+      "sector": "textile",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 100
+    },
+    {
+      "lease_id": "lease-1",
+      "tenant_id": "tenant-1",
+      "unit_id": "unit-1",
+      "sector": "textile",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 110
+    },
+    {
+      "lease_id": "lease-2",
+      "tenant_id": "tenant-2",
+      "unit_id": "unit-2",
+      "sector": "textile",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 120
+    },
+    {
+      "lease_id": "lease-3",
+      "tenant_id": "tenant-3",
+      "unit_id": "unit-3",
+      "sector": "textile",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 130
+    },
+    {
+      "lease_id": "lease-4",
+      "tenant_id": "tenant-4",
+      "unit_id": "unit-4",
+      "sector": "food",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 140
+    },
+    {
+      "lease_id": "lease-5",
+      "tenant_id": "tenant-5",
+      "unit_id": "unit-5",
+      "sector": "food",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-11-09T00:00:00+00:00",
+      "monthly_contract": 150
+    }
+  ],
+  "cashflows": [
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-01",
+      "due": 100,
+      "received": 100,
+      "concession": 0,
+      "available_at": "2026-02-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-02",
+      "due": 100,
+      "received": 100,
+      "concession": 0,
+      "available_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-03",
+      "due": 100,
+      "received": 60.0,
+      "concession": 0,
+      "available_at": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-04",
+      "due": 100,
+      "received": 60.0,
+      "concession": 0,
+      "available_at": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-05",
+      "due": 100,
+      "received": 100,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-06",
+      "due": 100,
+      "received": 90.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-0",
+      "month": "2026-07",
+      "due": 100,
+      "received": 100,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-01",
+      "due": 110,
+      "received": 110,
+      "concession": 0,
+      "available_at": "2026-02-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-02",
+      "due": 110,
+      "received": 110,
+      "concession": 0,
+      "available_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-03",
+      "due": 110,
+      "received": 66.0,
+      "concession": 0,
+      "available_at": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-04",
+      "due": 110,
+      "received": 66.0,
+      "concession": 0,
+      "available_at": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-05",
+      "due": 110,
+      "received": 110,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-06",
+      "due": 110,
+      "received": 99.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-1",
+      "month": "2026-07",
+      "due": 110,
+      "received": 110,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-01",
+      "due": 120,
+      "received": 120,
+      "concession": 0,
+      "available_at": "2026-02-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-02",
+      "due": 120,
+      "received": 120,
+      "concession": 0,
+      "available_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-03",
+      "due": 120,
+      "received": 72.0,
+      "concession": 0,
+      "available_at": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-04",
+      "due": 120,
+      "received": 72.0,
+      "concession": 0,
+      "available_at": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-05",
+      "due": 120,
+      "received": 120,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-06",
+      "due": 120,
+      "received": 108.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-2",
+      "month": "2026-07",
+      "due": 120,
+      "received": 120,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-01",
+      "due": 130,
+      "received": 130,
+      "concession": 0,
+      "available_at": "2026-02-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-02",
+      "due": 130,
+      "received": 130,
+      "concession": 0,
+      "available_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-03",
+      "due": 130,
+      "received": 78.0,
+      "concession": 0,
+      "available_at": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-04",
+      "due": 130,
+      "received": 78.0,
+      "concession": 0,
+      "available_at": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-05",
+      "due": 130,
+      "received": 130,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-06",
+      "due": 130,
+      "received": 117.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-3",
+      "month": "2026-07",
+      "due": 130,
+      "received": 130,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-01",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-02-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-02",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-03-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-03",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-04",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-05",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-06",
+      "due": 140,
+      "received": 126.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-4",
+      "month": "2026-07",
+      "due": 140,
+      "received": 140,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-5",
+      "month": "2026-05",
+      "due": 150,
+      "received": 150,
+      "concession": 0,
+      "available_at": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-5",
+      "month": "2026-06",
+      "due": 150,
+      "received": 135.0,
+      "concession": 5,
+      "available_at": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "tenant_id": "tenant-5",
+      "month": "2026-07",
+      "due": 150,
+      "received": 150,
+      "concession": 0,
+      "available_at": "2026-08-01T00:00:00+00:00"
+    }
+  ],
+  "candidate_tenants": [
+    {
+      "tenant_id": "tenant-new",
+      "sector": "textile",
+      "monthly_contract": 130,
+      "historical_cashflows": []
+    },
+    {
+      "tenant_id": "tenant-other",
+      "sector": "food",
+      "monthly_contract": 130,
+      "historical_cashflows": []
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "keep",
+      "replacement": null,
+      "shocks": {}
+    },
+    {
+      "name": "concentrated",
+      "replacement": {
+        "unit_id": "unit-5",
+        "new_tenant": "tenant-new",
+        "starts_at": "2026-10-10T00:00:00+00:00"
+      },
+      "shocks": {
+        "textile": -0.2
+      }
+    },
+    {
+      "name": "diverse",
+      "replacement": {
+        "unit_id": "unit-5",
+        "new_tenant": "tenant-other",
+        "starts_at": "2026-10-10T00:00:00+00:00"
+      },
+      "shocks": {
+        "textile": -0.2
+      }
+    }
+  ],
+  "baseline_case_id": "market_space_twin-demo"
+}
